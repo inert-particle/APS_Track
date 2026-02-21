@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/track.css">
     <link rel="stylesheet" href="css/timeline.css">
     <script src="lib/jquery/jquery.js"></script>
     <title>Tracking</title>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="navbar-container container flex flex-row flex-jc-sb">
@@ -154,7 +157,8 @@
                     <div class="location-info flex flex-row flex-jc-c">
                         <div class="info-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 279.276">
-                                <path d="M 117.9608,273.00045 C 146.01563,237.89113 210,152.79729 210,105.00057 210,47.031647 162.96892,0 105,0 47.031078,0 0,47.031647 0,105.00057 c 0,47.79672 63.984366,132.89056 92.039198,167.99988 6.726521,8.36751 19.195082,8.36751 25.921602,0 z M 105,70.000379 a 35.000051,35.000051 0 1 1 0,69.999811 35.000051,35.000051 0 1 1 0,-69.999811 z" />
+                                <path
+                                    d="M 117.9608,273.00045 C 146.01563,237.89113 210,152.79729 210,105.00057 210,47.031647 162.96892,0 105,0 47.031078,0 0,47.031647 0,105.00057 c 0,47.79672 63.984366,132.89056 92.039198,167.99988 6.726521,8.36751 19.195082,8.36751 25.921602,0 z M 105,70.000379 a 35.000051,35.000051 0 1 1 0,69.999811 35.000051,35.000051 0 1 1 0,-69.999811 z" />
                             </svg>
                         </div>
                         <div class="info-text text text-sm w-med cl-white">
@@ -174,7 +178,8 @@
                     <div class="mail-info flex flex-row flex-jc-c">
                         <div class="info-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 157.5">
-                                <path d="M 19.687553,0 C 8.8181879,0 0,8.8183583 0,19.687496 0,25.880848 2.9140237,31.705032 7.8752485,35.437482 L 97.125035,102.37488 c 4.674935,3.48603 11.074425,3.48603 15.749925,0 L 202.12475,35.437482 C 207.08938,31.704919 210,25.880848 210,19.687496 210,8.8183583 201.18124,0 190.31245,0 Z M 0,45.937454 V 131.2499 c 0,14.47844 11.771406,26.24996 26.250071,26.24996 H 183.74993 C 198.22859,157.49986 210,145.72834 210,131.2499 V 45.937454 l -89.24979,66.937456 c -9.35157,7.01365 -22.14885,7.01365 -31.499855,0 z" />
+                                <path
+                                    d="M 19.687553,0 C 8.8181879,0 0,8.8183583 0,19.687496 0,25.880848 2.9140237,31.705032 7.8752485,35.437482 L 97.125035,102.37488 c 4.674935,3.48603 11.074425,3.48603 15.749925,0 L 202.12475,35.437482 C 207.08938,31.704919 210,25.880848 210,19.687496 210,8.8183583 201.18124,0 190.31245,0 Z M 0,45.937454 V 131.2499 c 0,14.47844 11.771406,26.24996 26.250071,26.24996 H 183.74993 C 198.22859,157.49986 210,145.72834 210,131.2499 V 45.937454 l -89.24979,66.937456 c -9.35157,7.01365 -22.14885,7.01365 -31.499855,0 z" />
                             </svg>
                         </div>
                         <div class="info-text text text-sm w-med cl-white">
@@ -221,8 +226,53 @@
             </div>
         </div>
     </footer>
-    <script src="script/tracking.js"></script>
+    <script type="text/javascript">
+        const GetMovementTrack = async (objAwb) => {
+            try {
+                const response = await fetch(`/api/callAPI/${objAwb}`);
+                const data = await response.json(); // ✅ call it
+                if (data) {
+                    document.getElementById("sec-trackingDetails").removeAttribute("style")
+                    const shipment = data.shipment;
+                    const consignee = shipment.consignee;
+                    const consignor = shipment.consignor;
+                    if (consignee.vchPersonName !== '')
+                        document.getElementById("custInfo").removeAttribute("style");
+                    document.getElementById("consignor_vchPersonName").innerText = consignor.vchPersonName;
+                    document.getElementById("consignor_vchCountry").innerText = consignor.vchCountry;
+                    document.getElementById("consignor_vchState").innerText = consignor.vchState;
+                    document.getElementById("consignor_vchCity").innerText = consignor.vchCity;
+                    document.getElementById("dtShipDate").innerText = formatDate(shipment.dtShipDate);
+                    document.getElementById("consignee_vchPersonName").innerText = consignee.vchPersonName;
+                    document.getElementById("consignee_vchCountry").innerText = consignee.vchCountry;
+                    document.getElementById("consignee_vchState").innerText = consignee.vchState;
+                    document.getElementById("consignee_vchCity").innerText = consignee.vchCity;
+                    document.getElementById("dtDeliveryDate").innerText = formatDate(shipment.dtDeliveryDate);
+                    document.getElementById("vchAWBNumber").innerText = shipment.vchAWBNumber;
+                    document.getElementById("vchStatus").innerText = shipment.vchStatus;
+                    document.getElementById("vchForwardingNumber").innerText = shipment.vchForwardingNumber;
+                    document.getElementById("div_movement").innerHTML = data.movementLiteral;
+                }
+
+            } catch (error) {
+                console.error(error);
+            }
+        }
+        const formatDate = (isoString) => {
+            const date = new Date(isoString);
+
+            if (isNaN(date.getTime())) return null;
+
+            const year = date.getFullYear();
+            const day = String(date.getDate()).padStart(2, "0");
+
+            const month = date.toLocaleString("en-US", { month: "short" });
+
+            return `${year}, ${day} ${month}`;
+        };
+    </script>
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="track/fetch.js"></script>
 </body>
+
 </html>
