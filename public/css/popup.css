@@ -1,0 +1,87 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay.active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 10;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+    z-index: 10;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 0.5s;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--secondary_focus);
+}
+
+.popup .close:hover {
+    color: var(--primary_focus);
+}
+
+.popup .content {
+    max-height: 100%;
+    overflow: auto;
+}
+
+.popup .content>div .heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.popup .content .form-row {
+    /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+}
+
+.popup .content .form-row .form-group.search {
+    grid-column: 1 / 5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popup .content .form-row .form-group.search input[type="text"] {
+    padding: 5.5px 15px;
+    display: block;
+    width: 98%;
+}
+
+.popup .content .form-row .form-group.search button {
+    position: relative;
+    display: block;
+    left: 10px;
+}

@@ -1,0 +1,11 @@
+﻿.imageThumbnail{
+    height:200px;
+    width:auto;
+}
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.ui-autocomplete {
+    z-index: 100;
+}

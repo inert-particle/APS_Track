@@ -1,0 +1,188 @@
+.status-preview {
+    min-height: 500px;
+    width: calc(100% - 250px);
+    margin: 30px auto;
+    border: 1px solid black;
+    position: relative;
+    z-index: -1;
+}
+
+@media (max-width: 63.99875em) {
+    .status-preview {
+        margin: 30px 30px 30px 30px;
+        width: auto;
+    }
+
+
+}
+
+@media (max-width: 43.74875em) {
+    .status-preview {
+        margin: 30px 0px 30px 30px;
+    }
+
+
+}
+.leftbox {
+    top: -1.5%;
+    left: 3%;
+    position: absolute;
+    width: 5%;
+    height: calc(100% + 40px);
+    background-color: #50d890;
+    box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
+    z-index:-1;
+}
+
+.rightbox {
+    height: 100%;
+}
+
+@media (max-width: 63.99875em) {
+    .rightbox {
+        width: 95%;
+    }
+    
+    .leftbox {
+    	display: none;
+    }
+}
+.rb-container {
+    width: 100%;
+    display: block;
+    padding-left: 17.5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+.st-details {
+    border-left: 1px dashed black;
+    border-bottom: 1px solid #FB7756;
+    border-bottom-right-radius: 15px;
+    padding-left: 25px;
+    z-index: -2;
+    position: inherit;
+}
+
+.st-details.st-odd {
+    width: 40%;
+}
+
+.st-details.st-even {
+    width: 75%;
+}
+
+.st-blank {
+    border-left: 1px solid black;
+    border-bottom: 0;
+    padding-left: 25px;
+    min-height: 130px;
+    z-index: -4;
+    position:inherit;
+}
+
+.rb-container ul.rb {
+    margin: 2.5em 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.rb-container ul.rb li {
+    list-style: none;
+    margin: auto;
+    margin-left: 15em;
+    min-height: 50px;
+    border-left: 1px solid #4B7E93;
+    padding: 0 0 50px 0;
+}
+
+.rb-date-time div {
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.rb-date-time {
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    z-index: -1;
+}
+
+.st-details>.rb-date-time:first-child {
+    height: 30px;
+}
+
+.rb-date-time > div:first-child {
+    position: absolute;
+    left: -107px;
+    height: 30px;
+    top: -15px;
+    z-index: -1;
+}
+
+.rb-container ul.rb li:hover::before {
+    transition: all 1000ms ease-in-out;
+    background-color: #FB7756;
+}
+
+.rb-container .st-details .rb-date-time::before {
+    box-sizing: initial;
+    position: absolute;
+    left: -38px;
+    top: -13px;
+    content: " ";
+    border: 5px solid #FB7756;
+    border-radius: 500%;
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    width: 15px;
+    transition: all 500ms ease-in-out;
+    z-index: -1;
+}
+
+
+.status-card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FB7756;
+    max-width: 300px;
+    /*min-height: 100px;*/
+    margin-right: 0;
+    margin-left: auto;
+    padding: 12px 20px 5px 20px;
+    line-height: 20px;
+    color: #fff;
+     box-shadow: 0.3125rem 0.3125rem 0.625rem 0rem rgba(0, 0, 0, 0.1882352941);
+}
+
+.st-details.st-no-loc .status-card {
+    padding: 12px 20px;
+}
+
+.status-card .status {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.loc {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+@media (max-width: 63.99875em) {
+    .st-details.st-even {
+  width: 100%;
+}
+.st-details.st-odd {
+  width: 100%;
+}
+.status-preview {
+  border: none;
+}
+}

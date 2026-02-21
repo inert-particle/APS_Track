@@ -1,0 +1,4 @@
+{
+    "flightGo" : "http://admin.flightgo.in/api/tracking_api/get_tracking_data?api_company_id=24&customer_code=$customer_code$&tracking_no=$tracking_no$",
+    "skyNet" : "https://api.skynetww.com/api/Client/ShipmentTracking"
+}

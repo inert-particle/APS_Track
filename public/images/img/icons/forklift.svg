@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="75.238274mm"
+   viewBox="0 0 100 75.238274"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"><inkscape:grid
+       id="grid12"
+       units="mm"
+       originx="-83.87505"
+       originy="-51.853087"
+       spacingx="1"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-83.875051,-51.85309)"><path
+       id="rect49"
+       style="font-variation-settings:'wght' 700;opacity:1;fill:none;stroke:#000000;stroke-width:1.87985;stroke-linecap:round;stroke-linejoin:round"
+       d="m 140.33337,96.13442 8.28979,0.06294 0.33836,21.40711 -8.41452,0.0295 m -17.4571,0.059 -12.34063,0.0422 m -17.33109,0.0593 -3.122591,0.0107 c -4.592514,0.0157 -5.480619,-3.69725 -5.480619,-8.28979 V 91.782919 c 0,-4.592541 3.697759,-8.358579 8.289784,-8.289785 l 12.981236,0.194475 m 34.32947,33.816531 a 8.6472977,8.6472977 0 0 1 -8.6473,8.6473 8.6472977,8.6472977 0 0 1 -8.6473,-8.6473 8.6472977,8.6472977 0 0 1 8.6473,-8.6473 8.6472977,8.6472977 0 0 1 8.6473,8.6473 z m -29.69689,0 a 8.6472977,8.6472977 0 0 1 -8.6473,8.6473 8.6472977,8.6472977 0 0 1 -8.647296,-8.6473 8.6472977,8.6472977 0 0 1 8.647296,-8.6473 8.6472977,8.6472977 0 0 1 8.6473,8.6473 z m 38.3059,-0.10032 h 9.43077 M 148.42251,96.134427 V 52.793013 m -26.54936,5.417678 c 4.59236,0.04057 6.87864,3.919418 8.28979,8.289785 l 9.56847,29.633944 h -25.1566 c -4.59254,0 -8.28979,-3.697239 -8.28979,-8.289783 V 58.072979 Z M 169.6919,92.522639 V 103.15733 M 157.65262,92.121329 h 24.88119 M 169.89256,67.24015 c 0,9.230116 0,10.835351 0,10.835351 M 159.32082,66.638178 h 21.34415 c 1.25767,0 2.27015,1.012486 2.27015,2.270148 v 46.425994 c 0,1.25766 -1.01248,2.27014 -2.27015,2.27014 h -21.34415 c -1.25766,0 -2.27015,-1.01248 -2.27015,-2.27014 V 68.908326 c 0,-1.257662 1.01249,-2.270148 2.27015,-2.270148 z"
+       inkscape:export-filename="forklift.svg"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" /></g></svg>

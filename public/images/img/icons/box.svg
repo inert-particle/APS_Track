@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="98.864197mm"
+   height="99.999992mm"
+   viewBox="0 0 98.864197 99.999992"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"><inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-79.387673"
+       originy="-44.196755"
+       spacingx="1"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-79.38767,-44.196755)"><path
+       id="path24"
+       style="font-variation-settings:'wght' 700;opacity:1;fill:none;stroke:#000000;stroke-width:2.49962;stroke-linecap:round;stroke-dasharray:none"
+       d="m 98.958068,112.83507 c 7.249142,-11.02631 21.146292,-8.9838 29.966222,-1.13616 h 18.60462 c 10.93508,4.29782 3.0988,13.36277 0,12.92382 m -48.570842,14.48604 c 4.793672,1.97396 9.740042,3.18448 14.912102,3.26646 11.81873,1.19829 22.51905,0.15977 33.65874,0 6.06625,-0.62392 10.73901,-3.16388 13.77594,-7.95312 7.02456,-8.15136 10.28869,-13.07948 14.9121,-19.17271 3.32952,-6.86229 -4.42516,-12.03711 -8.5212,-7.66907 l -12.35574,13.4919 c -1.93621,1.95276 -4.06583,3.74437 -8.23716,3.83454 H 123.95358 M 80.637478,106.87024 h 13.065846 c 2.753772,0 4.970697,2.21693 4.970697,4.9707 v 25.70563 c 0,2.75376 -2.216925,4.9707 -4.970697,4.9707 H 80.637478 Z m 64.477102,-5.96486 h 15.48017 M 140.82142,46.2553 v 43.884988 l -9.03811,-6.427091 M 122.6448,46.2553 v 43.884988 l 9.0381,-6.427091 m 39.86805,22.494833 V 64.13065 L 159.03254,45.446568 H 104.14179 L 91.814838,63.82938 v 42.67991 -42.378639 h 79.133572"
+       inkscape:export-filename="box.svg"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" /></g></svg>

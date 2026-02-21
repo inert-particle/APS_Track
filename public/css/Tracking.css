@@ -1,0 +1,146 @@
+﻿/*.main {
+    background: url(../images/img/images/7201714_30921.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+.home-nav {
+    padding-top:5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.home-nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.home-nav a:hover {
+    color:#35A29F;
+}
+
+.navbar {
+    background: #fff;
+    /*position:fixed;*/
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar .logo img {
+    display: block;
+    width: 50px;
+}
+
+.navbar::after {
+    border-image: radial-gradient(circle, rgba(73,80,87,1) 1%, rgba(255,255,255,0) 90%) 30;
+}
+
+.navbar .menu-items a {
+    font-weight: 500;
+    color: #333;
+}
+
+.element label {
+    margin-top:30px;
+}
+
+#MovementTrack {
+    margin-bottom: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container {
+    max-width: 600px;
+    width: 49.5%;
+}
+
+.table-wraper {
+    margin: 20px 0;
+    border: 1px solid #555;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.table {
+    background:#fff;
+    width: 100%;
+}
+
+.table-row-header {
+    font-size: 1.7rem;
+    background: #6c7ae0;
+    color:#fff;
+    font-weight:500;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.table-row-header .cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc(100% / 3 - 0.5%);
+}
+
+.table-row {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.5rem;
+    color:#333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-row .cell {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: calc(100% / 3 - 0.5%);
+}
+
+.table-row:not(:last-of-type) .cell {
+    border-bottom: 1px solid #555;
+}
+
+.cell:not(:last-of-type) {
+    border-right: 1px solid #555;
+}
+
+.section-Aboutus {
+    font-size:1.6rem;
+    color:#444;
+}
+
+.section-Aboutus .about-heading-main {
+    font-size: 4rem;
+    font-weight:700;
+    color: #333;
+    margin-bottom:4rem;
+}
+
+.section-Aboutus .about-text {
+    margin-bottom:2rem;
+}
+
+.section-Aboutus .about-heading-scnd {
+    font-size:2rem;
+    font-weight:500;
+    color:#333;
+    margin-bottom:2rem;
+}
+
+.section-Aboutus li {
+    margin-bottom:1rem;
+}
+
+.section-Aboutus li .about-list-heading {
+    font-weight:600;
+    color:#333;
+}

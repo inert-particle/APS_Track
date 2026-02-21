@@ -1,0 +1,96 @@
+﻿/*.form-group {
+    height: 62px
+}*/
+
+.form-element-input {
+    display:flex;
+    flex-direction:column;
+    flex-flow:column-reverse;
+}
+
+    .form-element-input input,
+    .form-element-input textarea {
+        display: block;
+        width: 95%;
+        margin: 1rem 1rem 0 1rem;
+        font-size: 2rem;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #888;
+        padding: 0px 0px 1.5px 0.5rem;
+    }
+
+.form-element-input input:focus,
+.form-element-input textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #35A29F;
+    padding-bottom:0.5px;
+}
+
+.form-element-input label {
+    display: block;
+    width: 95%;
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.4rem;
+    color: #888;
+    /*position: absolute;*/
+}
+
+.form-element-input input:focus ~ label,
+.form-element-input input:not(:placeholder-shown) ~ label {
+    color: #35A29F;
+}
+
+.form-element-action a.btn {
+    display:block;
+    text-decoration:none;
+    width:120px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    margin: 15px 4% 10px auto;
+    padding:10px 15px;
+    color: #fff;
+}
+
+/*######################## Info Styling #########################*/
+.info-group {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #555;
+}
+
+.info-block {
+    font-size: 1.8rem;
+    background: #0B666A;
+    color: #fff;
+}
+
+.info-block h3 {
+    width: 50%;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.info-element {
+    font-size: 1.5rem;
+    padding: 3px 10px;
+}
+
+.info-term,
+.info-desc {
+    display: inline-block;
+    margin: 0px 3px;
+}
+
+.info-term {
+    font-weight: 500;
+    color: #444;
+}
+
+.info-desc {
+    text-transform: uppercase;
+    color: #333;
+}

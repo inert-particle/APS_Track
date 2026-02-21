@@ -1,0 +1,148 @@
+.section-tracking {
+    padding: 3.625rem 0 1.875rem 0;
+}
+
+.section-tracking .contact-subs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.section-tracking .contact-subs .contact-form-element:first-child {
+    width: 85%;
+}
+
+.section-tracking .contact-subs .contact-form-element input {
+    width: 100%;
+    border: 2px solid #26292dc4;
+}
+
+.section-tracking .contact-subs .contact-form-element input:focus {
+    width: 100%;
+    outline: none;
+    border-color: #FB7756;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info-card {
+    background-color: #4B7E93;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.info-card>div {
+    margin: 15px 25px;
+}
+
+.info-card {
+    margin: 15px;
+    color: #FFE6D8;
+}
+
+.info-card p {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+.info-card table {
+    font-size: 13px;
+    color: white;
+}
+
+.info-card table tr {
+    height: 25px;
+}
+
+tr td:first-child {
+    min-width: 100px;
+    font-weight: 600;
+}
+
+.time-container {
+    width: 540px;
+    margin: 10px auto 20px;
+    position: relative;
+    z-index:1;
+}
+.dtls {
+    width: calc(100% - 250px);
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dtls p {
+  min-width: calc(100%/3);
+}
+
+.dtls p:nth-child(1) {
+    text-align: left;
+}
+
+.dtls p:nth-child(2) {
+    text-align: center;
+}
+
+.dtls p:nth-child(3) {
+    text-align: right;
+}
+
+.dtls p span {
+  font-weight: 600;
+}
+
+@media (max-width: 63.99875em) {
+    .info {
+        max-height: 500px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .contact-form-element {
+        margin: 0 0 0 auto;
+    }
+
+    .contact-subs .sub-item-form {
+        height: 100px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section-tracking .sub-item-form .contact-form-element div {
+        width: 100%;
+    }
+
+    .section-tracking .sub-item-form .contact-form-element:first-child {
+        width: 100%;
+    }
+
+    .info-card {
+        width: auto;
+    }
+
+    .dtls {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dtls p {
+      width: 100%;
+    }
+
+    .dtls p:nth-child(1) {
+        text-align: center;
+    }
+
+    .dtls p:nth-child(2) {
+        text-align: center;
+    }
+
+    .dtls p:nth-child(3) {
+        text-align: center;
+    }
+}

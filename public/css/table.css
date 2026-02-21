@@ -1,0 +1,40 @@
+.table-div {
+    font-size: 14px;
+    position: relative;
+}
+
+.grid-table {
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+}
+
+.grid-table tr {
+    border-width: 1px;
+}
+
+.grid-table thead tr:last-child {
+    font-weight: 600;
+    /*border-bottom-width: 2px;*/
+    border-style: solid;
+    /* background-color: #eee; */
+}
+
+.grid-table.datagrid {
+    font-size:13px;
+}
+
+.table-div .grid-table thead tr {
+    position: static;
+}
+
+.grid-table tr td {
+    border-width: 1px;
+    padding: 8px 8px;
+}
+
+td.txt-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

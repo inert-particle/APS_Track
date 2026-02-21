@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="49.228764mm"
+   height="50mm"
+   viewBox="0 0 49.228764 50"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"><inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-145.83837"
+       originy="-72.48401"
+       spacingx="1"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-145.83836,-72.48401)"><path
+       id="path19"
+       style="font-variation-settings:'wght' 700;fill:none;stroke:#000000;stroke-width:1.24986;stroke-linecap:round;stroke-dasharray:none"
+       d="m 187.26487,83.071205 a 2.6450365,2.6450365 0 0 1 -2.64503,2.645037 2.6450365,2.6450365 0 0 1 -2.64503,-2.645037 2.6450365,2.6450365 0 0 1 2.64503,-2.645036 2.6450365,2.6450365 0 0 1 2.64503,2.645036 z m 2.34541,-8.631951 c -3.07311,-1.774255 -6.85931,-1.774255 -9.93241,0 -3.0731,1.774255 -4.96621,5.053213 -4.783,9.021767 1.31617,6.103072 5.37583,11.242007 9.66602,15.684036 4.00152,-4.669744 7.9734,-9.135479 9.87397,-15.684036 0.14162,-3.968554 -1.75148,-7.247512 -4.82458,-9.021767 z m -11.32967,46.832356 v -19.88062 m -16.01264,13.64194 16.17901,6.44664 15.88785,-6.57142 V 95.069113 m -21.62745,-4.575035 -10.35622,-4.117535 -15.88787,6.737785 v 28.448432 l 15.88787,-6.32188 V 86.626088 m 0,28.614792 -15.88787,6.32188 V 93.114328 l 15.88787,-6.737785"
+       inkscape:export-filename="map-small.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /></g></svg>
